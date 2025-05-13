@@ -83,15 +83,19 @@ for raw_year_date in ['2016', '2019']:
     print(f"Subjects with Diagnosis OR Procedure ({raw_year_date}) (NOT USED): {included_diag_or_proc}")
     print(f"Subjects with Diagnosis AND Procedure ({raw_year_date}): {included_diag_and_proc}")
 
-    # Diagnosis (2016): 7845
-    # Procedures (2016): 1136
-    # Diagnosis OR Procedure (2016): 8134
-    # Diagnosis AND Procedure (2016): 847
-    #
-    # Diagnosis (2019): 6805
-    # Procedures (2019): 845
-    # Diagnosis OR Procedure (2019): 6995
-    # Diagnosis AND Procedure (2019): 655
+    # ===== 2016 ====
+    # Full data: 3117413
+    # Subjects with Diagnosis (2016): 7845
+    # Subjects with Procedures (2016): 1136
+    # Subjects with Diagnosis OR Procedure (2016) (NOT USED): 8134
+    # Subjects with Diagnosis AND Procedure (2016): 847
+    # Subject Included in the analysis 2016: 847
+    # ===== 2019 ====
+    # Full data: 3089283
+    # Subjects with Diagnosis (2019): 6805
+    # Subjects with Procedures (2019): 845
+    # Subjects with Diagnosis OR Procedure (2019) (NOT USED): 6995
+    # Subjects with Diagnosis AND Procedure (2019): 655
     # %%
     # year columns
     df_data['year'] = int(raw_year_date)
