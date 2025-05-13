@@ -1,0 +1,6 @@
+https://hcup-us.ahrq.gov/db/vars/race/kidnote.jsp
+
+
+https://hcup-us.ahrq.gov/db/vars/hosp_locteach/kidnote.jsp
+
+https://hcup-us.ahrq.gov/db/vars/zipinc_qrtl/kidnote.jsp
